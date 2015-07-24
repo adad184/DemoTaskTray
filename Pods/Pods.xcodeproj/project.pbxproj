@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2417E81207DB70487D59F4550C6421BF /* iCarousel.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A0E2DF05C1D54ADC303D569BD683201 /* iCarousel.h */; };
+		344FCEE0311BE56FAF6B275B88F6650A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72BE8591D70F62500396C1906E51F837 /* QuartzCore.framework */; };
+		55E4BD9E0FF73C30CA86B5BE0A0C21EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F34F14D02326B62F12852A8BF339AD67 /* Foundation.framework */; };
+		5E2B8D282A53640FA1B54A50D479B3B6 /* Pods-DemoTaskTray-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C9B3114ED3EBA0A23F49EDC74BA9F91B /* Pods-DemoTaskTray-dummy.m */; };
+		722F2ACFB501D012A2C296D338E2A621 /* iCarousel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 289C5D64AAE7D0FFF37C816E0911046F /* iCarousel-dummy.m */; };
+		A093037C5B87BF4996450FE0EB1C2CAF /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D00AF6F8FBD1C207C2E352DCC9F91EF /* iCarousel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B90E445CBC56763D50BB5003988C4007 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F34F14D02326B62F12852A8BF339AD67 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8DC1D883DB4FD29B0815D5435230A94E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA8CE37DA88BE5A1CCF077E8A937384F;
+			remoteInfo = iCarousel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D00AF6F8FBD1C207C2E352DCC9F91EF /* iCarousel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = iCarousel.m; path = iCarousel/iCarousel.m; sourceTree = "<group>"; };
+		20598BEA4F98A2E4885A51CC0D6A5726 /* iCarousel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iCarousel-prefix.pch"; sourceTree = "<group>"; };
+		26B636BB753CE0CC6CE0A8A4B7E54C4D /* libPods-DemoTaskTray.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DemoTaskTray.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		289C5D64AAE7D0FFF37C816E0911046F /* iCarousel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "iCarousel-dummy.m"; sourceTree = "<group>"; };
+		3F7D502D7B71AB04F5B3ADB8BF074EF2 /* Pods-DemoTaskTray-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DemoTaskTray-acknowledgements.plist"; sourceTree = "<group>"; };
+		49BB59C9C61417424F84F471C46880DE /* Pods-DemoTaskTray.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoTaskTray.debug.xcconfig"; sourceTree = "<group>"; };
+		58660BD5601FD961B9E709973DEECCC3 /* libiCarousel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libiCarousel.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		72BE8591D70F62500396C1906E51F837 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		7C9FDF089DC61947B3069766262D75F9 /* iCarousel-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "iCarousel-Private.xcconfig"; sourceTree = "<group>"; };
+		8A0E2DF05C1D54ADC303D569BD683201 /* iCarousel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = iCarousel.h; path = iCarousel/iCarousel.h; sourceTree = "<group>"; };
+		A0E7FACCB5B03D3A272F5BA7405AED71 /* Pods-DemoTaskTray-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DemoTaskTray-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C49CDF14E20E39D98AFF785C682D15AD /* Pods-DemoTaskTray.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoTaskTray.release.xcconfig"; sourceTree = "<group>"; };
+		C88113A79685B4EFEE7BAD12896829F7 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C9B3114ED3EBA0A23F49EDC74BA9F91B /* Pods-DemoTaskTray-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DemoTaskTray-dummy.m"; sourceTree = "<group>"; };
+		DA2EF76BF0E43DF669B5B22614B172F0 /* Pods-DemoTaskTray-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DemoTaskTray-resources.sh"; sourceTree = "<group>"; };
+		F34F14D02326B62F12852A8BF339AD67 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F3A314196171E2B5492CFC2B3B333D0F /* iCarousel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = iCarousel.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01989FE7DC0755D140FF73D941D723D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55E4BD9E0FF73C30CA86B5BE0A0C21EA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D9CBE642C648CFBFAF69F0B7993BA10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B90E445CBC56763D50BB5003988C4007 /* Foundation.framework in Frameworks */,
+				344FCEE0311BE56FAF6B275B88F6650A /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0266C8B2B32438C1B9D5E0C98E28389B /* iCarousel */ = {
+			isa = PBXGroup;
+			children = (
+				8A0E2DF05C1D54ADC303D569BD683201 /* iCarousel.h */,
+				0D00AF6F8FBD1C207C2E352DCC9F91EF /* iCarousel.m */,
+				41BAFE40B7E24E9735670589FD16AAEC /* Support Files */,
+			);
+			path = iCarousel;
+			sourceTree = "<group>";
+		};
+		21FF83D38BE2E1D5499360B06000D8F3 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F34F14D02326B62F12852A8BF339AD67 /* Foundation.framework */,
+				72BE8591D70F62500396C1906E51F837 /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		41BAFE40B7E24E9735670589FD16AAEC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F3A314196171E2B5492CFC2B3B333D0F /* iCarousel.xcconfig */,
+				7C9FDF089DC61947B3069766262D75F9 /* iCarousel-Private.xcconfig */,
+				289C5D64AAE7D0FFF37C816E0911046F /* iCarousel-dummy.m */,
+				20598BEA4F98A2E4885A51CC0D6A5726 /* iCarousel-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/iCarousel";
+			sourceTree = "<group>";
+		};
+		54BC314D1EBB5CD4C12ED49386FA938B /* Pods-DemoTaskTray */ = {
+			isa = PBXGroup;
+			children = (
+				A0E7FACCB5B03D3A272F5BA7405AED71 /* Pods-DemoTaskTray-acknowledgements.markdown */,
+				3F7D502D7B71AB04F5B3ADB8BF074EF2 /* Pods-DemoTaskTray-acknowledgements.plist */,
+				C9B3114ED3EBA0A23F49EDC74BA9F91B /* Pods-DemoTaskTray-dummy.m */,
+				DA2EF76BF0E43DF669B5B22614B172F0 /* Pods-DemoTaskTray-resources.sh */,
+				49BB59C9C61417424F84F471C46880DE /* Pods-DemoTaskTray.debug.xcconfig */,
+				C49CDF14E20E39D98AFF785C682D15AD /* Pods-DemoTaskTray.release.xcconfig */,
+			);
+			name = "Pods-DemoTaskTray";
+			path = "Target Support Files/Pods-DemoTaskTray";
+			sourceTree = "<group>";
+		};
+		5E1F3384B1B39575144FEBFCF3210CCC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				21FF83D38BE2E1D5499360B06000D8F3 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				C88113A79685B4EFEE7BAD12896829F7 /* Podfile */,
+				5E1F3384B1B39575144FEBFCF3210CCC /* Frameworks */,
+				FCC6F965540745142F6675EF7C9E0E2D /* Pods */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				848A6CE8DA3504A266A17F635DC3683A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		848A6CE8DA3504A266A17F635DC3683A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				54BC314D1EBB5CD4C12ED49386FA938B /* Pods-DemoTaskTray */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26B636BB753CE0CC6CE0A8A4B7E54C4D /* libPods-DemoTaskTray.a */,
+				58660BD5601FD961B9E709973DEECCC3 /* libiCarousel.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCC6F965540745142F6675EF7C9E0E2D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0266C8B2B32438C1B9D5E0C98E28389B /* iCarousel */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3F10B40DFC26BAA1A1C6A04EC46239F2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2417E81207DB70487D59F4550C6421BF /* iCarousel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A82F860EEECFF6B3D90A6ED5A81A37D9 /* Pods-DemoTaskTray */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 430A69CBDF308D5F49232783255A689E /* Build configuration list for PBXNativeTarget "Pods-DemoTaskTray" */;
+			buildPhases = (
+				48BDC9BBE247E6B7535AF613BE926A8B /* Sources */,
+				01989FE7DC0755D140FF73D941D723D1 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				387D8D0C8BCC4D95CEF3A109AC6607D6 /* PBXTargetDependency */,
+			);
+			name = "Pods-DemoTaskTray";
+			productName = "Pods-DemoTaskTray";
+			productReference = 26B636BB753CE0CC6CE0A8A4B7E54C4D /* libPods-DemoTaskTray.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		EA8CE37DA88BE5A1CCF077E8A937384F /* iCarousel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 012EC25471D87BF5DAF907BAF5F0D597 /* Build configuration list for PBXNativeTarget "iCarousel" */;
+			buildPhases = (
+				70FA358324DC3F66C5861FF2DD43AC08 /* Sources */,
+				9D9CBE642C648CFBFAF69F0B7993BA10 /* Frameworks */,
+				3F10B40DFC26BAA1A1C6A04EC46239F2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iCarousel;
+			productName = iCarousel;
+			productReference = 58660BD5601FD961B9E709973DEECCC3 /* libiCarousel.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A82F860EEECFF6B3D90A6ED5A81A37D9 /* Pods-DemoTaskTray */,
+				EA8CE37DA88BE5A1CCF077E8A937384F /* iCarousel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48BDC9BBE247E6B7535AF613BE926A8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E2B8D282A53640FA1B54A50D479B3B6 /* Pods-DemoTaskTray-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70FA358324DC3F66C5861FF2DD43AC08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				722F2ACFB501D012A2C296D338E2A621 /* iCarousel-dummy.m in Sources */,
+				A093037C5B87BF4996450FE0EB1C2CAF /* iCarousel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		387D8D0C8BCC4D95CEF3A109AC6607D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = iCarousel;
+			target = EA8CE37DA88BE5A1CCF077E8A937384F /* iCarousel */;
+			targetProxy = 8DC1D883DB4FD29B0815D5435230A94E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0D491647D9FBA81473125ECE87766FEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		3A64552C80F3D28CA43F4432672C0A5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C49CDF14E20E39D98AFF785C682D15AD /* Pods-DemoTaskTray.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		3D0A535BAC826A03FA3AC24481AA4E37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F6489C03B603252F1A4644BEE821AC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C9FDF089DC61947B3069766262D75F9 /* iCarousel-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/iCarousel/iCarousel-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		6B2E3FACAFF461361F4F5755DA2613B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49BB59C9C61417424F84F471C46880DE /* Pods-DemoTaskTray.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		6E1A59B895B373EC287F3E1C52586C68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C9FDF089DC61947B3069766262D75F9 /* iCarousel-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/iCarousel/iCarousel-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		012EC25471D87BF5DAF907BAF5F0D597 /* Build configuration list for PBXNativeTarget "iCarousel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E1A59B895B373EC287F3E1C52586C68 /* Debug */,
+				4F6489C03B603252F1A4644BEE821AC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D491647D9FBA81473125ECE87766FEE /* Debug */,
+				3D0A535BAC826A03FA3AC24481AA4E37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		430A69CBDF308D5F49232783255A689E /* Build configuration list for PBXNativeTarget "Pods-DemoTaskTray" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B2E3FACAFF461361F4F5755DA2613B6 /* Debug */,
+				3A64552C80F3D28CA43F4432672C0A5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

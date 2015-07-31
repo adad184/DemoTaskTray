@@ -123,7 +123,7 @@ iCarouselDataSource
     CGFloat scale = [self scaleByOffset:offset];
     CGFloat translation = [self translationByOffset:offset];
     
-    return CATransform3DScale(CATransform3DTranslate(transform, translation * self.cardSize.width, 0, 1.0f+0.01*offset), scale, scale, 1.0f);
+    return CATransform3DScale(CATransform3DTranslate(transform, translation * self.cardSize.width, 0, offset), scale, scale, 1.0f);
 }
 
 - (void)carouselDidScroll:(iCarousel *)carousel
